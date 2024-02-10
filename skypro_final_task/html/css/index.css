@@ -1,0 +1,55 @@
+body {
+    margin: 0px auto;
+    font-size:100%;
+    font-weight:normal;
+    font-family:'Helvetica', 'Arial', sans-serif;
+	background: #000000;
+}
+
+.container {
+	padding-left: 10px;
+    padding-right: 10px;
+	width: 70%;
+	background-image: linear-gradient(to right, #E2BCBB, #E4514A);
+	background-position: center;
+	text-align: center;
+	color: white;
+	margin: 0px auto;
+    border: 3px solid green;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #008000;	
+	text-decoration-line: wavy;
+	font-size: 110%;
+	animation:ani 2.5s forwards 2s;
+}
+
+figure {
+	margin: 30px;
+}
+
+footer {
+	color:aqua;
+	text-align: center;
+}
+
+.title {
+	text-shadow:0 0 5px #ff0000;
+	color: white;
+	text-align: center;
+}
+
+.description {
+	text-shadow:0 0 5px black;
+	color: white;
+	text-align: center;
+}
